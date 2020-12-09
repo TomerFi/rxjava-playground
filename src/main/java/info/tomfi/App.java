@@ -1,8 +1,8 @@
 package info.tomfi;
 
 import io.jooby.Jooby;
-import io.reactivex.rxjava3.core.Flowable;
-import io.reactivex.rxjava3.core.Single;
+import io.reactivex.Flowable;
+import io.reactivex.Single;
 
 public class App extends Jooby {
   public App() {
